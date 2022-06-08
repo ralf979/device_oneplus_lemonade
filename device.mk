@@ -23,7 +23,8 @@ TARGET_SCREEN_WIDTH := 1080
 PRODUCT_PACKAGES += \
     OPlusFrameworksResTarget \
     OPlusSettingsProviderResTarget \
-    OPlusSystemUIResTarget
+    OPlusSystemUIResTarget \
+    OPlus9WifiOverlay
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
