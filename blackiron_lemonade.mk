@@ -12,9 +12,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/oneplus/lemonade/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/blackiron/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_lemonade
+PRODUCT_NAME := blackiron_lemonade
 PRODUCT_DEVICE := lemonade
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
@@ -31,11 +31,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_PRODUCT=$(PRODUCT_SYSTEM_NAME)
 
 BUILD_FINGERPRINT := OnePlus/OnePlus9/OnePlus9:13/TP1A.220905.001/R.12ee12f-1f9a9-ffaad:user/release-keys
-
-# Matrixx
-MATRIXX_BUILD_TYPE := Official
-MATRIXX_MAINTAINER := mukesh22584
-MATRIXX_CHIPSET := SM8350
-MATRIXX_BATTERY := 4500mAh
-MATRIXX_DISPLAY := 1080x2400
-WITH_GAPPS := true
