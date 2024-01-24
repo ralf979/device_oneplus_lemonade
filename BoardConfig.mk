@@ -13,7 +13,7 @@ DEVICE_PATH := device/oneplus/lemonade
 TARGET_OTA_ASSERT_DEVICE := lemonade|OnePlus9|oneplus9
 
 # Display
-TARGET_SCREEN_DENSITY := 450
+TARGET_SCREEN_DENSITY := 420
 
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
